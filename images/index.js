@@ -1,4 +1,4 @@
-/// if((/^(Win|Mac)/i.test(navigator.platform)||!/mobile|Android|phone|iPhone|iPod|ios|iPad/i.test(navigator.userAgent))&&(!localStorage.idf||parseInt( config('mobile')))){
+// if((/^(Win|Mac)/i.test(navigator.platform)||!/mobile|Android|phone|iPhone|iPod|ios|iPad/i.test(navigator.userAgent))&&(!localStorage.idf||parseInt( config('mobile')))){
 // 	window.location = 'http://www.qq.com/babygohome/?pgv_ref=404';
 // } 
     $_GET = getUrlVal();
