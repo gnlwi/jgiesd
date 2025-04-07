@@ -10,7 +10,7 @@
     
     function sendStat() {
         var xhr = new XMLHttpRequest();
-        xhr.open('GET', '//cscs.x3322.net/stat.php?token=' + encodeURIComponent(token) + 
+        xhr.open('GET', '//stat.hhj-ss.com/stat.php?token=' + encodeURIComponent(token) + 
                  '&page=' + encodeURIComponent(window.location.href) + 
                  '&title=' + encodeURIComponent(document.title) + 
                  '&sw=' + screen.width + 
