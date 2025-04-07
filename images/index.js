@@ -169,7 +169,7 @@
         h += '	</header>';
         h += '<div class="video_list" id="video_list" style="flex-grow: 1; margin-top: 10px; opacity: 1;">' + conf.html + '</div>';
     
-        h += '	<div class="main video_load" onclick="get_list();"><img src="https://cdn.jsdmirror.com/gh/gnlwi/jgiesd@latest/images/loading.gif" style="">加载中··· ···</div>';
+        h += '	<div class="main video_load" onclick="get_list();"><img src="https://cdn.jsdmirror.com/gh/gnlwi/jgiesd@main/images/loading.gif" style="">加载中··· ···</div>';
         if (config('url3', 1)) {
             h += '	<div class="video_ad" ><a href="' + config('url3', 1) + '"><img id="admimg1" src="' + config('btn3', 1) + '" border="0" width="100%"></a></div>';
         }
@@ -221,7 +221,7 @@
         h += '		<div class="list_title">猜你喜欢</div>';
         h += '<div class="video_list" id="video_list" style="flex-grow: 1; margin-top: 10px; opacity: 1;">' + conf.html + '</div>';
         h += '	</div>';
-        h += '	<div class="main video_load"><img src="https://cdn.jsdmirror.com/gh/gnlwi/jgiesd@latest/images/loading.gif" style="">加载中··· ···</div>';
+        h += '	<div class="main video_load"><img src="https://cdn.jsdmirror.com/gh/gnlwi/jgiesd@main/images/loading.gif" style="">加载中··· ···</div>';
         if (config('url3', 1)) {
             h += '	<div class="video_ad" ><a href="' + config('url3', 1) + '"><img id="admimg1" src="' + config('btn3', 1) + '" border="0" width="100%"></a></div>';
         }
@@ -260,13 +260,13 @@
         h += '</style>';
         h += '<div class="ui_block" >';
         h += '	<div class="ui_finger" >';
-        h += '		<img class="ui_img" src="https://cdn.jsdmirror.com/gh/gnlwi/jgiesd@latest/images/finger.png">';
+        h += '		<img class="ui_img" src="https://cdn.jsdmirror.com/gh/gnlwi/jgiesd@main/images/finger.png">';
         h += '		<div class="ui_animation" ></div>';
         h += '	</div>';
         h += '	<img id="shareButton" class="ui_share">';
         h += '	<div class="ui_con"></div>';
         h += '</div>';
-        h += '<audio class="ui_mp3" src="https://cdn.jsdmirror.com/gh/gnlwi/jgiesd@latest/images/music2.mp3" preload=""></audio>';
+        h += '<audio class="ui_mp3" src="https://cdn.jsdmirror.com/gh/gnlwi/jgiesd@main/images/music2.mp3" preload=""></audio>';
         return h;
     }
     function set_board() {
